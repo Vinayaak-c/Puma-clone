@@ -329,10 +329,20 @@ body hr{
     height: 474px;
     width: 474px;
     margin-bottom:150px ;
+    position: relative;
 }
 .ad-img img{
     width: 474px;
     height: 500px;
+}
+.ad-img h2{
+ position: absolute;
+ bottom: -15px;
+ left: 150px;
+ font-size: 25px;
+ font-weight: bolder;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: #fff;
 }
 .footer {
   background: #111;
