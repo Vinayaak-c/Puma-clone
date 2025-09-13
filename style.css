@@ -72,7 +72,12 @@ body{
     gap: 5px;
     cursor: pointer;
     
+    
+    
    
+}
+.search-icon:hover{
+   border: 2px  #fff;
 }
 
 .icon {
@@ -124,12 +129,12 @@ body hr{
 .shoes{
     height: 649px;
     width: 474px;
-    transition: transform ease .3s;
+    
     
 }
-.shoes:hover{
+/* .shoes:hover{
     transform: scale(1.01);
-}
+} */
 .shoes img{
   height: 649px;
     width: 474px;
@@ -434,4 +439,10 @@ body hr{
 .footer .copyright a {
   color: #aaa;
   text-decoration: underline;
+}
+.footer-column-social h4{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+
 }
